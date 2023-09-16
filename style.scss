@@ -10,8 +10,6 @@ body {
     align-items: center;
 }
 
-
-
 .container {
    justify-items: center;
 }
@@ -22,12 +20,15 @@ body {
     color: $primary-font-color;
 }
 
-
-.navbar {
+.navbar{
     background: $primary-bg-color;
 }
 
-.nav-link {
+.navbar :hover, #External-Link :hover {
+    color: rgb(206, 107, 71);
+}
+
+.nav-link, #External-Link {
     color: #3667ab;
     font-weight: 500;
 }
@@ -43,4 +44,11 @@ h5 {
 
 p {
     font-weight: 300;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40;
 }
