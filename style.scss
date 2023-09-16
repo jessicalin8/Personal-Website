@@ -1,5 +1,5 @@
 $primary-bg-color: lightsteelblue;
-$primary-font-color: gray;
+$primary-font-color: navy;
 
 body {
     background-color: $primary-bg-color;
@@ -10,11 +10,37 @@ body {
     align-items: center;
 }
 
-.div-1 {
+
+
+.container {
+   justify-items: center;
+}
+
+#div-1 {
     justify-content: center;
     align-items: center;
+    color: $primary-font-color;
 }
+
 
 .navbar {
     background: $primary-bg-color;
+}
+
+.nav-link {
+    color: #3667ab;
+    font-weight: 500;
+}
+
+ul {
+    font-weight: 200;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
 }
