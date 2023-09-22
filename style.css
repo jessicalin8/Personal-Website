@@ -9,6 +9,7 @@ body {
 
 .container {
   justify-items: center;
+  padding: 50px;
 }
 
 #div-1 {
@@ -48,4 +49,14 @@ p {
   justify-content: center;
   align-items: center;
   padding: 40;
+}
+
+/* CSS for the fade-in animation */
+.project-container, .about-section {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 2s ease-in-out; /* Transition for smooth fade-in */
+}
+
+.project-fade-in {
+  opacity: 1; /* Faded in when the project is in view */
 }/*# sourceMappingURL=style.css.map */
